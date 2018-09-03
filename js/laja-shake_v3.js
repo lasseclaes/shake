@@ -1,4 +1,4 @@
-//anvender https://github.com/alexgibson/shake.js til at lytte efter shake-eventet
+//uses https://github.com/alexgibson/shake.js to listen for the shake event
 window.onload = function() {
     document.getElementById("dev-1").innerHTML = "V. 3";
     //create a new instance of shake.js.
@@ -25,6 +25,7 @@ window.onload = function() {
       else{
           ssp = "papir";
         }
+      //alert (which);
       alert (ssp);
     }
 };
